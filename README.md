@@ -1,7 +1,7 @@
 # Mathematical optimization
 Mathematical optimization methods in MATLAB | Python | R
 
-## 1 dimensional optimization techniques
+## One dimensional optimization techniques
 
 - Method of Search algorithm
 - Method of Quadratic interpolation
