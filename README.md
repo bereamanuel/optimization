@@ -9,3 +9,7 @@ Mathematical optimization methods in MATLAB | Python | R
 - Secant method
 - Newton's method (MATLAB | Python | R)
 - Method of Inexact Lines
+
+
+## Optimization without restrictions
+- Newton's method (MATLAB)
