@@ -15,18 +15,18 @@ t1 <-  now()
 k <-  1
 incre1 <-  tol+1
 
-X <-  data.frame( "x" = x, "error" = incre1, "time" =  now()-t1  )
+X <-  data.frame( "x" = x, "error" = incre1, "time" =  now()-t1)
 
 
 while (incre1>tol & k<maxiter){
   df <-  D(f,"x")
   df2 <-  D(D(f,"x"),"x")
-  xk <- x-eval(df)/eval(df2)                            
-  incre1 <-  abs(eval(df))         
-  x <- xk                                  
-  k <- k+1 
-  X[k,] <- c( x,  incre1,now()-t1  ) 
-  }                                   
+  xk <- x-eval(df)/eval(df2)
+  incre1 <-  abs(eval(df))
+  x <- xk
+  k <- k+1
+  X[k,] <- c(x,incre1,now()-t1)
+  }
 
 
 return(X)
@@ -39,4 +39,4 @@ f <- expression(x^2+2*x+1)
 x <-  1
 
 
-print(new(f,x,tol,maxiter))  
+print(new(f,x,tol,maxiter))

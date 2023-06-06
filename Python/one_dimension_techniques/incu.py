@@ -21,7 +21,6 @@ def incu(f,x1,x2,x3,maxiter,tol):
     k = 1
     incre1 = tol+1
 
-
     y1 = f(x1)
     y2 = f(x2)
     y3 = f(x3)
