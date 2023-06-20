@@ -43,5 +43,4 @@ def f(x):
 
 x0 = 1
 
-
 print(new(f,x0,tol,maxiter))  
