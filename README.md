@@ -16,4 +16,4 @@ Mathematical optimization methods in MATLAB | Python | R
 
 ## TPS
 - bruteForce(MATLAB | Python)
-- Held Karp(MATLAB )
+- Held Karp(MATLAB | Python )
